@@ -1,25 +1,25 @@
 {
-  "name": "Group-Manager Bot",
+  "name": "Group-Manager UserBot",
   "description": "A simple group-manager bot made with Python [Telethon].",
   "logo": "https://telegra.ph/file/ec1495d982c0544404970.jpg",
   "keywords": [
     "telegram",
-    "GPBot",
+    "ManagerUserbot",
     "plugins",
     "telegram-GPbot",
     "productivity",
     "Group-Manager"
   ],
-  "repository": "https://github.com/TgxBotz/TelethonGPBot",
-  "website": "https://github.com/TgxBotz/TelethonGPBot",
-  "success_url": "t.me/TgxBots",
+  "repository": "https://github.com/ilhammansiz/ManagerUserbot",
+  "website": "https://github.com/ilhammansiz/ManagerUserbot",
+  "success_url": "t.me/diemmmmmmmmmm",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
       "value": "ANYTHING"
     },
-    "TOKEN": {
-      "description": "Your Bot Token.",
+    "STRING_SESSION": {
+      "description": "Your STRING.",
       "value": ""
     },
     "RULES": {
@@ -51,9 +51,14 @@
       }
     }
   ],
-  "buildpacks": [
-    {
-      "url": "heroku/python"
+    "buildpacks": [{
+    "url": "heroku/python"
     }
-  ]
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
 }
