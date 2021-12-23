@@ -1,6 +1,6 @@
-<p align="center"><a href="https://t.me/TgxBots"><img src="https://telegra.ph/file/6e50a22dcb7bf6a062b1c.jpg" width="2500"></a></p> 
-<h1 align="center"><b>Group-Manager Bot</b></h1>
-<h4 align="center">A Group-Manager Bot made with telethon!</h4>
+<p align="center"><a href="https://t.me/diemmmmmmmmmm"><img src="https://telegra.ph/file/6e50a22dcb7bf6a062b1c.jpg" width="2500"></a></p> 
+<h1 align="center"><b>Group-Manager UserBot</b></h1>
+<h4 align="center">A Group-Manager UserBot made with telethon!</h4>
 
 ## Additional Information
 [![Stars](https://img.shields.io/github/stars/ilhammansiz/ManagerUserbot?style=flat-square&color=yellow)](https://github.com/ilhammansiz/ManagerUserbot/stargazers)
